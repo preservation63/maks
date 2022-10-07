@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/maks/static/css/main.e70808a6.css",
+    "main.js": "/maks/static/js/main.43f6fd83.js",
+    "static/js/787.6be1af6f.chunk.js": "/maks/static/js/787.6be1af6f.chunk.js",
+    "index.html": "/maks/index.html",
+    "main.e70808a6.css.map": "/maks/static/css/main.e70808a6.css.map",
+    "main.43f6fd83.js.map": "/maks/static/js/main.43f6fd83.js.map",
+    "787.6be1af6f.chunk.js.map": "/maks/static/js/787.6be1af6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70808a6.css",
+    "static/js/main.43f6fd83.js"
+  ]
+}
