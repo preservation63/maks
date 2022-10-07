@@ -1,0 +1,401 @@
+.logo {    
+    display: block;
+    width: 109px;
+    height: 30px;
+    background: url(https://www.avito.st/remote-modules/order-widget/7bfd6e8/5e1dc1cb88bf5aa6f3ca.svg) no-repeat;
+}
+
+.hr {
+    margin-top: 25px;
+    width: 65%;
+    opacity: 40%;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        margin-left: 265px;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    .hr {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .logobox {
+        margin-left: -8px;
+    }
+  }
+
+  .logobox {
+    margin-top: 50px;
+  }
+
+  .box1 {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    min-height: 103px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    user-select: none;
+    border-color: rgb(0, 170, 255);
+    box-shadow: rgb(0 170 255) 0px 0px 0px 1px inset;
+    align-self: flex-start;
+    width: 200px;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 12px 18px 14px;
+    margin-right: 10px;
+  }
+
+  .box2 {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    min-height: 103px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: default;
+    user-select: none;
+    border-color: rgb(235, 235, 235);
+    color: rgb(143, 143, 143);
+    align-self: flex-start;
+    width: 200px;
+    display: inline-flex;
+    font-weight: normal;
+    padding: 14px 12px 18px 14px;
+  }
+
+  .order {
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    width: 278px;
+    height: 290px;
+    padding: 13px 15px 16px;
+  }
+
+  .orderw {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .pricefl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bx1 {
+    color: rgb(133, 133, 133);
+  }
+
+  .politic {
+    color: #7A7A7A;
+    font-size: 12px;
+  }
+
+  a:visited {
+    color: #7A7A7A;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: #7A7A7A;
+    background-color: transparent;
+  }
+
+  .oplbut {
+    min-height: 40px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: rgb(0, 170, 255);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .itogo {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .sz {
+    font-size: 14px;
+  }
+
+  .spc {
+    line-height: 21px;
+  }
+
+  .bx1 {
+    margin-left: 10px;
+  }
+
+  .hrbox {
+    opacity: 40%;
+    width: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hr {
+        width: 100%;
+    }
+
+    .order {
+        margin-top: 30px;
+        margin-bottom: -100px;
+    }
+
+    .inpw {
+        width: 530px;
+    }
+
+    .kl {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .sposob {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .vidw {
+        margin-top: 30px;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+@media (min-width: 1200px) {
+    .grid {
+        justify-content: flex-start;
+        display: flex;
+        margin-left: 265px;
+    }
+
+    .order {
+        margin-left: 180px;
+        margin-top: -30px;
+    }
+
+    .wtop {
+        margin-left: 265px;
+    }
+
+    .sposob {
+        margin-top: 30px;
+    }
+
+    .boxes {
+        margin-top: 15px;
+    }
+
+    .vid {
+        margin-top: 30px;
+    }
+}
+
+.vidi {
+    background: url(https://www.avito.st/remote-modules/order-widget/db03e7f/90bbfb1b0d0029bd3409.png);
+    width: 503px;
+    height: 152px;
+    background-size: cover;
+    padding: 0px 17px 0px  16px;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.btnp {
+    width: 100%;
+    margin-top: 100px;
+    font-weight: normal;
+    box-sizing: border-box;
+    line-height: 1.375;
+    font-size: 16px;
+    align-self: center;
+    vertical-align: middle;
+    padding: 0px 17px 0px 16px;
+    min-height: 40px;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: rgb(245, 245, 245);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(87 72 43 / 20%) 0px 4px 12px, rgb(97 79 46 / 10%) 0px 2px 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .w2 {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .inpw {
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: normal;
+    box-sizing: border-box;
+    line-height: px;
+    color: rgb(92, 92, 92);
+  }
+
+  .w3 {
+    font-size: 17px;
+    color: rgb(92, 92, 92);
+    margin-top: 5px;
+  }
+
+  .inp2 {
+    font-size: 15px;
+    width: 300px;
+    padding: 6px 0px 6px 10px;
+    background: rgb(235, 235, 235);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+  }
+
+  .hw {
+    line-height: 40px;
+  }
+
+  .col1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    align-self: center;
+    margin-right: 30px;
+  }
+
+  .ww {
+    width: 300px;
+  }
+
+  .w2 {
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .inpw {
+    margin-top: 25px;
+  }
+
+  .hr1 {
+    margin-top: 1000px;
+  }
+
+  .www1 {
+    flex-direction: column;
+    flex: 1 1 0%;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .www2 {
+    flex-direction: column;
+    flex: 1 1 0%;
+    align-items: flex-end;
+    display: flex;
+  }
+
+  .kl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .grcw {
+    font-weight: normal;
+    box-sizing: border-box;
+    line-height: 1.286;
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+  }
+  
+  .bccw {
+    font-weight: normal;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .bm {
+    margin-top: 52px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    line-height: 1.286;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    position: absolute;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  @media (min-width: 1200px) {
+    .bm {
+        margin-left: 265px;
+    }
+  }
+
+  .ofor {
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-size: 25px;
+    font-weight: 600;
+    display: inline;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .sposob {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .vidw {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .hr1 {
+    margin-top: 250px;
+  }
