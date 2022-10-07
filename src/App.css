@@ -185,6 +185,10 @@
     .vidw {
         margin-top: 30px;
     }
+
+    .wfix {
+      width: 250px;
+    }
 }
 
 .grid {

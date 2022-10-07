@@ -46,7 +46,7 @@ class App extends Component {
                                                     <div className="input">
                                                         <input type="text" className="inp2" autoCorrect="off" spellCheck="false" data-marker="sd/order-widget-field/name" name="name" placeholder="Иванов Иван Иванович" defaultValue="" />
                                                         <br />
-                                                        <div className="w3">
+                                                        <div className="w3 wfix">
                                                         Как в паспорте: заказ получите только вы
                                                         </div>
                                                 </div>
